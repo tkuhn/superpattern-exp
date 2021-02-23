@@ -5,12 +5,12 @@
 
 mkdir -p temp
 
-./extract-field.sh -p http://www.w3.org/ns/prov#wasDerivedFrom > temp/paper.txt
-./extract-field.sh -a https://w3id.org/linkflows/superpattern/terms/hasContextClass > temp/context.txt
-./extract-field.sh -a https://w3id.org/linkflows/superpattern/terms/hasSubjectClass > temp/subject.txt
-./extract-field.sh -a https://w3id.org/linkflows/superpattern/terms/hasQualifier > temp/qualifier.txt
-./extract-field.sh -a https://w3id.org/linkflows/superpattern/terms/hasRelation > temp/relation.txt
-./extract-field.sh -a https://w3id.org/linkflows/superpattern/terms/hasObjectClass > temp/object.txt
+./extract-field.sh -p '<http://www.w3.org/ns/prov#' > temp/paper.txt
+./extract-field.sh -a '<https://w3id.org/linkflows/superpattern/terms/hasContextClass>' > temp/context.txt
+./extract-field.sh -a '<https://w3id.org/linkflows/superpattern/terms/hasSubjectClass>' > temp/subject.txt
+./extract-field.sh -a '<https://w3id.org/linkflows/superpattern/terms/hasQualifier>' > temp/qualifier.txt
+./extract-field.sh -a '<https://w3id.org/linkflows/superpattern/terms/hasRelation>' > temp/relation.txt
+./extract-field.sh -a '<https://w3id.org/linkflows/superpattern/terms/hasObjectClass>' > temp/object.txt
 
 paste -d ',' temp/paper.txt temp/context.txt temp/subject.txt temp/qualifier.txt temp/relation.txt temp/object.txt \
   > table.csv
