@@ -1,0 +1,53 @@
+@prefix this: <http://purl.org/np/RAUGdaWAvcel6a1ROu-vo935DgLgVMxhlWkY_U6gh8XvQ> .
+@prefix sub: <http://purl.org/np/RAUGdaWAvcel6a1ROu-vo935DgLgVMxhlWkY_U6gh8XvQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+@prefix ns1: <http://purl.org/np/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  this: npx:includesElement ns1:RA-KyzY4XH2ImiqFqJAMUwftjgic0PqcyHGR1bUWSdCdU, ns1:RA-XX6_SEcu_nJdyxejZi7sk2iP0Tf2MQ2ivk-8kMxLBg,
+      ns1:RA0aGKmgQUTKjMwBGaPQkuEzCsseOyH2X7Wqzi6nrB6fU, ns1:RA2IrXiZnDsa5BH1nk_7aerLJyZIEnavSB2i4o1hsCot8,
+      ns1:RA3yqCT-C2UyMsyp9S5IxgKdlwOuLDI4A19a5IlywTO-Q, ns1:RA4u9Y78nuIBWtm1R1GAPoGREJunS6bDvq5JdKDHV4o0g,
+      ns1:RA6Lpsa8P2nPzCY7ukUtnrYRlRtyFD1G6QVu8fgHJLxD0, ns1:RA70Awc9P7HpWQU5NaeKzt-NRRA6KUi8ClmeidrwQflPE,
+      ns1:RADx2412hlB8I9Et_XXyjQ7ehcYuqn8DPmR6-TBcx7ZOs, ns1:RAEJvsztrlNFyQG1BS4ABUHOnadlekD1VeP4Dk_MFFcRc,
+      ns1:RAFuCt74gQMgaqfs5c3lqLiRv2rbadLs9xARZMg7oKlHw, ns1:RAKIgceGa2la69LnM19UNu7YtWh_KH1EymZYLwxK97QO0,
+      ns1:RAKe4nwFZmgYjNXR9NUcWwEk5bcigldjxpBskZyyi6zcU, ns1:RAKz3F-aJs8lexwZHeV_zPTHXawnMF0V56-qLqkmvWYEw,
+      ns1:RALJNcM7hZCKOLZblzQzNR8zS86xHsZolR9GpNvokltJc, ns1:RALsFBepZ6GFzE1PbNWbSQfGkMAlNTPMu_p85zDpKa7cw,
+      ns1:RALtON2MYYBdGKynq1NCLw61qeSoZCxEK8bTAahW5A3wo, ns1:RAOC7bzrDM90EQfsb5eRxQImP9z5pI-RLgYqkwWMCj8oc,
+      ns1:RAQ0c8zHpi3vtV5qYBYQ0lofLkUjdW9u6hI0Uf-1bEAeo, ns1:RARWESq0j_QevbOkXmOwS-MdixR1kOPx1aKer8LKQkM9Q,
+      ns1:RASvkK3hDecig0GgAt1qdAAcOcQb0LBaEksOR6ihtadLg, ns1:RATorypmdm1_ha7YS_AehgmtmqvS5r4H6lS604x4cauhY,
+      ns1:RATwO-qLeTKMwSmQS7TaEPKS0oCJrHfIbLJKx9gqEk5Iw, ns1:RAVOOXc4Uw8iOY3vJN91F4KuD8tUkg0QQAjBVK412KSyI,
+      ns1:RAVbVgt5Kz6SuL98QPHyVUhrKQP_ttZ8LLEdClEY4GMn4, ns1:RAXhtfK5HnMoyTtQq2-ZNZE-COj2WJJVEqsCWAEXjRysw,
+      ns1:RAYQkEXPzryJTRGyRGP0jbLsiXcvwmYbr0rVhDYiR-aew, ns1:RAZ3ZwpkzRJ-xcsGoiXMFkOsVhxyszHy_kiRXy6PBkFjM,
+      ns1:RAa4f8GlEaNln4ly0okjaxn_UBwV19ZLgHkBU_9NkhdzI, ns1:RAbI-9tddSdQDAWfQFqZkNCTtYypge3ucd5nX1kpnLc44,
+      ns1:RAbqQGWzsLfs-F8903eO2JNQ90_VmCvhBOAxV3Bbccda4, ns1:RAemidLvwoIQuoOcLuphxh2wipSH3s85OhcxxXwx3qfQ8,
+      ns1:RAfT3sXfb8KjBDWmSCFL9NIdikK3Xp5SS9rzV9eZ957jI, ns1:RAgbvS9JIv6fUg0z82U9nXpXLnO8uxSVH9DEYq0jfK4yM,
+      ns1:RAjzom3W_fivQxR-p8hq53iqVL7_qg9AzOfPDqlUHA7w0, ns1:RAkOxVM5qSFftrZM4qHt0lovjOK0xAFe4-UuhT8v71z8s,
+      ns1:RAnYjGFbtrDF5UDFu4PCU9fdm5w_ctKEsebBvgrXD-aKU, ns1:RAo5HBLlNLa2ja8TjgMBAYhydE69NLMj_bXscCPZQCt7g,
+      ns1:RAp7AXLKXDqTuARMmKFP2abpyA3IkPSfTQng3kr5CNbgE, ns1:RAtaCDAjnAYQcpU7-eis0X7X_AqCYVdBv-cy6PHcW6isc,
+      ns1:RAutSw7OxvSSF53jqZpKcbH0dVrGKk_Eh9jE_c4c1GZQQ, ns1:RAvcvV5lX6wXJs6cAfCVIbRyoJcd9ZC_IR6lLsvA3PVPY,
+      ns1:RAxMLxembRq7M0oNCLa41mEGfGbBxZI2yupsuNP7W5gSU, ns1:RAyrWSFzhKtwMHqrlkteSZfkTQ4PaxycD_YH5IbqPzsDk .
+}
+
+sub:provenance {
+  sub:assertion a npx:IndexAssertion .
+}
+
+sub:pubinfo {
+  this: dce:title "First set of superpattern nanopublications from Semantic Scholar sample";
+    dct:created "2021-02-23T09:04:32.744+01:00"^^xsd:dateTime;
+    dct:creator <https://orcid.org/0000-0002-1267-0234>, <https://orcid.org/0000-0002-7114-6459>;
+    a npx:NanopubIndex .
+}
+
+
